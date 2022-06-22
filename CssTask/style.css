@@ -1,0 +1,65 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    margin: 1.5em auto;
+    width: 90%;
+}
+
+.page-header {
+    margin: 1.5em auto;
+    width: 90%;
+}
+
+.nav {
+    margin-left: auto;
+    width: fit-content;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2em;
+}
+
+.active {
+    color: var(--bright-orange);
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: var(--bright-orange);
+}
