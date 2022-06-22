@@ -16,19 +16,19 @@ body{
 
 }
 
-nav {
-    padding: 2rem;
-    text-align: center;
+.nav {
+    margin-left: auto;
+    width: fit-content;
 }
 
-nav a{
-    color: var(--Dark-cyan);
+.nav-list {
+    display: flex;
+    gap: 2em;
 }
 
-nav span{
-    color: var(--Bright-orange);
+.active {
+    color: var(--bright-orange);
 }
-
 
 .card-container{
     min-height: 100vh;
