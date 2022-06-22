@@ -11,14 +11,14 @@ box-sizing: border-box;
 }
 
 body{
+    display: flex;
     font-size: 15px;
     line-height: 1.6rem;
-
 }
 
 
 .card-container{
-    min-height: 100vh;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
