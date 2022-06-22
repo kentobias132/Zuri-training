@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1.3rem; 
+  background-color: black;
+  color: #fff;
+}
+
+nav .container {
+  width: 80%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+nav .row {
+  display: flex;
+}
+.s-btw{
+  justify-content: space-between;
+}
+
+nav .row {
+  align-items: center;
+  font-family: 'Allura', cursive;
+}
+
+.logo span {
+  color: crimson;
+}
+
+.row ul {
+  display: flex;
+  gap: 1.8em;
+}
+
+li {
+  list-style: none;
+}
+
+.row ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.row ul li a:hover{
+  color: crimson;
+}
+
+/**** form section ***/
+.container {
+  width: 80%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+}
+
+.col h1{
+  text-align: center;
+  font-family: cursive;
+  margin: 1em 0;
+}
+
+input{
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+}
+
+.input-field{
+  padding: .5em;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+
+.input-field .fa{
+  margin: 0 .5em;
+}
+
+.account-option{
+  display: flex;
+  padding: 1em;
+ font-size: 13px;
+}
+
+.form .link-text{
+  text-decoration: none;
+  color: crimson;
+}
+
+.account-option a{
+  margin-left: auto;
+}
+
+.account-option p{
+  margin-left: .5em;
+}
+
+.form-btn{
+  display: block;
+  background-color: crimson;
+  width: 80%;
+  margin: 0 auto;
+  padding: .4em;
+  border-radius: 100px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  /* font-family: cursive; */
+}
+
+.alt{
+  font-size: 15px;
+  margin-top: .7em;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .row{
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .col{
+    width: 45%;
+    align-self: flex-end;
+  }
+  .wrap .container {
+    border: 1px solid #fff;
+    padding: 3em 0;
+  }
+  
+  .text-line{
+    position: relative;
+    padding-right: 2em;
+  }
+  
+  .text-line::before {
+    content: "";
+    height: 100%;
+    width: 3px;
+    top: 0;
+    left: -1.8em;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50px;
+  }
+  
+  .wrap{
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
