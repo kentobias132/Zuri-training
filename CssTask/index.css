@@ -16,19 +16,6 @@ body{
 
 }
 
-.nav {
-    margin-left: auto;
-    width: fit-content;
-}
-
-.nav-list {
-    display: flex;
-    gap: 2em;
-}
-
-.active {
-    color: var(--bright-orange);
-}
 
 .card-container{
     min-height: 100vh;
