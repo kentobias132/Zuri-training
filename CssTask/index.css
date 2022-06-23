@@ -83,8 +83,8 @@ h1{
     color: var(--light-gray);
 }
 
-footer p{
-    color: black;
+footer p {
+    color: var(--Bright-orange);
 }
 
 @media (max-width: 580px) {
