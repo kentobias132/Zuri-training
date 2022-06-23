@@ -7,7 +7,7 @@ body{
     background-color: black;
 }
 main{
-    min-height: 100vh;
+    min-height: 80vh;
     display: grid;
     place-items: center;
 }
@@ -54,3 +54,7 @@ main{
     grid-area: e ;
     background-color: aqua;
 }
+
+footer p {
+    color: #fff;
+    )
