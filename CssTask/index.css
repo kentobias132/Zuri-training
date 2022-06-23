@@ -83,6 +83,9 @@ h1{
     color: var(--light-gray);
 }
 
+footer p{
+    color: black;
+}
 
 @media (max-width: 580px) {
     .wrapper{
