@@ -14,17 +14,17 @@ function calc(){
         globCall();
     }
 
-    if (operation === '+'){
-        alert(firstInput + secondInput);
+if (operation === '+'){
+        alert(`${firstInput} + ${secondInput} = ${firstInput + secondInput}`);
     }
     else if (operation === '*'){
-        alert(firstInput * secondInput);
+        alert(`${firstInput} * ${secondInput} = ${firstInput * secondInput}`);
     }
     else if (operation === '-'){
-        alert(firstInput - secondInput);
+        alert(`${firstInput} - ${secondInput} = ${firstInput - secondInput}`);
     }
     else if (operation === '/'){
-        alert(firstInput / secondInput);
+        alert(`${firstInput} / ${secondInput} = ${firstInput / secondInput}`);
     }
     else{
         alert("Enter a valid operation ( +,  *,  -,  / )");
