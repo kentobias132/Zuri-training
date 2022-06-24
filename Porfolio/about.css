@@ -114,7 +114,7 @@ li {
     display: none;
   }
   .prev {
-    background-image: url('/asset/me.png');
+    background-image: url('./asset/me.png');
     background-repeat: no-repeat;
     background-position: right;
   }
