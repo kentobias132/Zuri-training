@@ -12,11 +12,6 @@ body {
   color: #fff;
 }
 
-/*.bg-color {
-  background-color: black;
-  color: #fff;
-}*/
-
 img {
   max-width: 100%;
 }
@@ -30,7 +25,7 @@ img {
 .row {
   display: flex;
 }
-.s-btw{
+.s-btw {
   justify-content: space-between;
 }
 
@@ -57,11 +52,11 @@ li {
   color: #fff;
 }
 
-.menu-btn{
+.menu-btn {
   display: none;
 }
 
-.row ul li a:hover{
+.row ul li a:hover {
   color: crimson;
 }
 
@@ -79,62 +74,75 @@ li {
   /* font-size: 3rem; */
 }
 
-.text-area h1 {
+.text-area h2 {
   margin: 0;
   color: crimson;
   font-family: 'Cinzel Decorative', cursive;
 }
 
-.buttons{
+.buttons {
   gap: 2rem;
 }
 
-.social-btn i{
+.social-btn i {
   color: crimson;
-  margin-left: .4em;
+  margin-left: 0.4em;
   font-size: 1.5rem;
 }
 
-.btn{
+.btn {
   color: #fff;
   text-decoration: none;
   background-color: crimson;
   border-radius: 50px;
   font-size: 1.3rem;
-  padding: .5rem 1.6rem;
+  padding: 0.5rem 1.6rem;
   /* font-family: 'Cinzel Decorative', cursive; */
 }
 
-.hero-img{
+.hero-img {
   width: 45%;
   align-self: flex-end;
 }
 
-.hero-img .mainImg{
-  
-}
-
-
-@media (max-width: 800px){
-  .prev .row{
-    display: block;
-  }
-  
-  .text-area, .hero-img{
+@media (max-width: 900px) {
+  .text-area {
     width: 100%;
   }
-  .hero-img{
+
+  .hero-img {
     display: none;
   }
-  .prev{
+  .prev {
     background-image: url('/asset/me.png');
     background-repeat: no-repeat;
+    background-position: right;
   }
-  .menu-btn{
+  .menu-btn {
     display: block;
   }
-  .menu-list{
+  .menu-list {
     display: none;
   }
 }
 
+@media (max-width: 450px) {
+  .prev {
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+  } 
+  
+  .prev .container{
+    padding: 0;
+    width: 90%;
+    height: 100%;
+  }
+  
+  .text-area {
+    padding: 1em 0;
+    height: 100%;
+  }
+}

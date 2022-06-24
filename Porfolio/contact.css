@@ -1,17 +1,18 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
-  font-size: 1.3rem; 
+body {
+  font-size: 1.3rem;
   background-color: black;
   color: #fff;
 }
 
 nav .container {
   width: 80%;
+  padding: 1.8em 0;
   max-width: 1500px;
   margin: 0 auto;
 }
@@ -19,7 +20,7 @@ nav .container {
 nav .row {
   display: flex;
 }
-.s-btw{
+.s-btw {
   justify-content: space-between;
 }
 
@@ -32,6 +33,14 @@ nav .row {
   color: crimson;
 }
 
+.menu-btn {
+  display: block;
+}
+
+.menu-list {
+  display: none;
+}
+
 .row ul {
   display: flex;
   gap: 1.8em;
@@ -41,12 +50,12 @@ li {
   list-style: none;
 }
 
-.row ul li a {
+a {
   text-decoration: none;
   color: #fff;
 }
 
-.row ul li a:hover{
+.row ul li a:hover {
   color: crimson;
 }
 
@@ -57,58 +66,59 @@ li {
   margin: 0 auto;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
-.col h1{
+.col h1 {
   text-align: center;
-  font-family: cursive;
+  font-family: 'Allura', cursive;
   margin: 1em 0;
 }
 
-input, textarea{
+input,
+textarea {
   border: none;
   outline: none;
   background: none;
   color: #fff;
 }
 
-.input-field{
-  padding: .5em;
+.input-field {
+  padding: 0.5em;
   border: 1px solid #fff;
   /*border-radius: 100px;*/
 }
 
-.input-field .fa{
-  margin: 0 .5em;
+.input-field .fa {
+  margin: 0 0.5em;
 }
 
-.account-option{
+.account-option {
   display: flex;
   padding: 1em;
- font-size: 13px;
+  font-size: 13px;
 }
 
-.form .link-text{
+.form .link-text {
   text-decoration: none;
   color: crimson;
 }
 
-.account-option a{
+.account-option a {
   margin-left: auto;
 }
 
-.account-option p{
-  margin-left: .5em;
+.account-option p {
+  margin-left: 0.5em;
 }
 
-.form-btn{
+.form-btn {
   display: block;
   background-color: crimson;
   width: 80%;
   margin: 0 auto;
-  padding: .4em;
+  padding: 0.4em;
   border-radius: 100px;
   text-align: center;
   color: #fff;
@@ -116,19 +126,27 @@ input, textarea{
   /* font-family: cursive; */
 }
 
-.alt{
+.alt {
   font-size: 15px;
-  margin-top: .7em;
+  margin-top: 0.7em;
   text-align: center;
 }
 
 @media (min-width: 800px) {
-  .row{
-  display: flex;
-  justify-content: space-between;
+  .menu-btn {
+    display: none;
   }
-  
-  .col{
+
+  .menu-list {
+    display: block;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col {
     width: 45%;
     align-self: flex-end;
   }
@@ -136,14 +154,14 @@ input, textarea{
     border: 1px solid #fff;
     padding: 3em 0;
   }
-  
-  .text-line{
+
+  .text-line {
     position: relative;
     padding-right: 2em;
   }
-  
+
   .text-line::before {
-    content: "";
+    content: '';
     height: 100%;
     width: 3px;
     top: 0;
@@ -152,9 +170,10 @@ input, textarea{
     position: absolute;
     border-radius: 50px;
   }
-  
-  .wrap{
+
+  .wrap {
     min-height: 700px;
     display: flex;
     align-items: center;
+  }
 }
